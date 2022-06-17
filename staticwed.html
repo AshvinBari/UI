@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <!-- or -->    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    
+    <style>
+         
+    head{
+        
+     }
+    body{
+         background-image:url(web.jpg);
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+           
+            background-repeat: no-repeat; 
+    }
+    section h3{
+      text-align: center;
+        font-size: 35px;font-weight: 200;letter-spacing: 5px;
+        color: aliceblue; text-shadow: 1px 1px 2px rgb(7, 198, 231);
+       
+
+    }
+    section h2{
+        text-align: center;
+        font-size: 35px;font-weight: 200;letter-spacing: 5px;
+        color: rgb(202, 5, 228); text-shadow: 1px 1px 2px rgb(9, 205, 240);
+        margin: 30px 0px 20px 0px;
+        text-transform: uppercase;
+       
+    }
+    section p{
+        font-size: 25px;
+        word-spacing: 4px;
+        margin-bottom: 25px;
+       
+        color: rgb(248, 85, 234);
+    }
+    section a{
+        padding: 12px 30px;
+        border-radius: 4px;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+    nav{
+        
+        width: 100%; height: 15vh;
+     color:white; display: flex; justify-content: space-between;align-items: center;
+     text-transform: uppercase; 
+    }
+    *{
+        margin: 0%;padding: 0%;box-sizing: border-box;
+    }
+    .logo{
+        width: 40%; text-align: left ;
+         }
+    .Menu{
+      
+        width: 40%; text-align: center;
+        display: flex; justify-content: space-around;
+       }
+       .Menu a{
+           color: aqua;
+
+       } 
+       main{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+       text-align: center;
+    }
+    section .butone{
+        background: rgb(107, 62, 231);
+        color: antiquewhite;
+    }
+    .butone:hover{
+        background: rgb(192, 83, 16);
+        color: bisque;
+    }
+    .buttwo:hover{
+        background: rgb(107, 62, 231);
+        color: antiquewhite;
+    }
+
+
+    section .buttwo{
+        background: rgb(192, 83, 16);
+        color: bisque;
+    }
+    .change_content:after
+    { content: ' ';
+    animation: changetext 10s infinite linear;
+    color: aqua;
+
+    }
+    @keyframes changetext {
+        0%{content: "java";}
+        20%{content: "python";}
+        40%{content: "C++";}
+        60%{content: "C";}
+        80%{content: "automation testing ";}
+    }
+    .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+ 
+   color: rgb(10, 243, 173);
+   text-align: right;}
+
+    
+    
+    
+  
+    
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+              <i> <h1 class="animated infinite bounce delay-2s">
+                    Excellent Softwares
+                </h1></i> 
+               
+            </div>
+            <div class="Menu">
+            <a href="https://www.w3schools.com/" >Home</a>
+            <a href="#">Menu</a>
+            <a href="#">About</a>
+            <a href="https://www.google.com/maps/place/Good+Software+Classes/@18.6055087,73.7505171,17z/data=!3m1!4b1!4m5!3m4!1s0x3bc2b931368f6f97:0xb597d5db604e4baf!8m2!3d18.6054917!4d73.75271">Address</a>
+            
+            </div>
+        </nav>
+            <main>
+                <section>
+                    <h3>welcome to class </h3>
+                  <h2>learning courses  <samp class=" change_content"></samp></h2> 
+                    <p>java,python,Software testing</p>
+                    <a href="https://www.instagram.com/accounts/login/"class="butone">learn more</a>
+                    <a href="https://www.facebook.com/"class="buttwo">signup here</a>
+                </section>
+            </main>
+        
+    </header>
+    <div class="footer">
+        <h2 class="animated bounce delay-2s">Founder vinay Ahuja</h2>
+      
+
+    </div>
+   
+    
+</body>
+</html>
